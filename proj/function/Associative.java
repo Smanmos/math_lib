@@ -1,7 +1,9 @@
+import java.util.function.BinaryOperator;
+
 /**
 * Functions T foo(T) of this class must satisfy the commutative property:
-* a.foo(b).foo(c) = a.foo(b.foo(c)) for all valid values of a, b and c;
+* foo.apply(a, foo.apply(b, c)) == foo.apply(foo.apply(a, b), c)
 */
-public Commutative extends BinaryOperator {
+public interface Associative<T> extends BinaryOperator<T> {
 
 }
