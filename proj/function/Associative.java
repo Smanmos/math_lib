@@ -1,3 +1,5 @@
+package math_lib.proj.function;
+
 import java.util.function.BinaryOperator;
 
 /**

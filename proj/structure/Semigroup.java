@@ -1,9 +1,11 @@
+import math_lib.proj.function.Associative;
+
 /**
 * Interface for semigroups with elements in class T
 * Semigroups must obey the following property:
 * Associativity: a.foo(b).foo(c) == a.foo(b.foo(c))
 * Serves as a
 */
-public abstract class Semigroup<T, ? implements Associative<T> > C{
-    public Monoid<T, ? implements Associative<T>> multiply();
+public interface Semigroup<T, B extends Associative<T> > {
+    public T dot(T t1, T t2);
 }
