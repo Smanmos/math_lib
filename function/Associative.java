@@ -1,4 +1,4 @@
-package math_lib.proj.function;
+package math_lib;
 
 import java.util.function.BinaryOperator;
 

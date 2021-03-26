@@ -1,4 +1,6 @@
-import math_lib.proj.function.Associative;
+package math_lib;
+
+import function.Associative;
 
 /**
 * Interface for semigroups with elements in class T
