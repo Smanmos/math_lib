@@ -1,3 +1,0 @@
-class CA implements IA {
-    
-}
