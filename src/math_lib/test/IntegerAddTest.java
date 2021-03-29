@@ -1,4 +1,4 @@
-package math_lib;
+package math_lib.test;
 
 import structure.IntegerAdd;
 

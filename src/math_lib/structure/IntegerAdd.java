@@ -1,6 +1,6 @@
 package math_lib.structure;
 
-import function.Associative;
+import math_lib.function.Associative;
 
 public class IntegerAdd implements Semigroup<Integer, Integer.Add> {
     private Integer value;
