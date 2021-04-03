@@ -1,6 +1,6 @@
 package math_lib.structure;
 
-import function.Associative;
+import math_lib.function.Associative;
 
 /**
 * Interface for semigroups with elements in class T
@@ -8,6 +8,6 @@ import function.Associative;
 * Associativity: a.foo(b).foo(c) == a.foo(b.foo(c))
 * Serves as a
 */
-public interface Semigroup<T, B extends Associative<T> > {
-    public T dot(T t1, T t2);
+public interface Semigroup<U, T, B extends Associative<T> > {
+    public U dot(U t);
 }

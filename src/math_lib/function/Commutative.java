@@ -3,8 +3,9 @@ package math_lib.function;
 import java.util.function.BinaryOperator;
 
 /**
-* Functions T foo(T) of this class must satisfy the commutative property:
-* a.foo(b) == b.foo(a) for all valid values of a and b
+* Commutative functions T foo(T, T) must satisfy the commutative property:
+* For elements T a, b:
+* foo.apply(a, b) == foo.apply(b, a)
 */
 public interface Commutative<T> extends BinaryOperator<T> {
 

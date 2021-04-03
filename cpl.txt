@@ -1,0 +1,16 @@
+src/math_lib/function/Associative.java
+src/math_lib/function/Commutative.java
+src/math_lib/function/Unital.java
+src/math_lib/function/Invertible.java
+
+src/math_lib/util/IntegerUtil.java
+
+src/math_lib/base/BaseInteger.java
+
+src/math_lib/structure/Semigroup.java
+src/math_lib/structure/Monoid.java
+src/math_lib/structure/Group.java
+src/math_lib/structure/AbelianGroup.java
+src/math_lib/structure/IntegerAdd.java
+
+src/test/IntegerAddTest.java
