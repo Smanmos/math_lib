@@ -2,15 +2,23 @@ src/math_lib/function/Associative.java
 src/math_lib/function/Commutative.java
 src/math_lib/function/Unital.java
 src/math_lib/function/Invertible.java
+src/math_lib/function/Idempotent.java
+src/math_lib/function/Absorbing.java
 
 src/math_lib/util/IntegerUtil.java
+src/math_lib/util/MathUtil.java
 
 src/math_lib/base/BaseInteger.java
 
-src/math_lib/structure/Semigroup.java
-src/math_lib/structure/Monoid.java
-src/math_lib/structure/Group.java
-src/math_lib/structure/AbelianGroup.java
-src/math_lib/structure/IntegerAdd.java
+src/math_lib/structure/generic/Semigroup.java
+src/math_lib/structure/generic/Monoid.java
+src/math_lib/structure/generic/Group.java
+src/math_lib/structure/generic/AbelianGroup.java
+src/math_lib/structure/generic/Semilattice.java
+src/math_lib/structure/generic/Lattice.java
+
+src/math_lib/structure/algebraic/IntegerAdd.java
+src/math_lib/structure/algebraic/MinMaxInteger.java
 
 src/test/IntegerAddTest.java
+src/test/MinMaxIntegerTest.java

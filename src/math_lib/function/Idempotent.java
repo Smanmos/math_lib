@@ -7,6 +7,6 @@ import java.util.function.BinaryOperator;
 * For element T t:
 * foo.apply(t, t) == t
 */
-interface Idempotent<T> extends BinaryOperator<T> {
+public interface Idempotent<T> extends BinaryOperator<T> {
 
 }

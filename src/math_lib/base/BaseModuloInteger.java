@@ -10,7 +10,7 @@ public class BaseModuloInteger {
         @Override
         public BaseModuloInteger apply(BaseModuloInteger augend, BaseModuloInteger addend){
             if (!augend.modulo.equals(addend.modulo)){
-                throw new ArithmeticException("Different modulos");
+                throw new ArithmeticException("Different modulos: ", augend.);
             }
             return new BaseModuloInteger(augend.base.add(addend.base), augend.modulo);
         }
