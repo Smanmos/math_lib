@@ -1,25 +1,25 @@
 package math_lib.base;
 
 public class ModuloInteger {
-    public final int value;
+    public final int residue;
     public final int modulus;
 
-    public ModuloInteger(int value, int modulus){
+    public ModuloInteger(int residue, int modulus){
         if (modulus < 0){
             modulus = -modulus;
         }
-        if (value < 0){
-            value = -value;
+        if (residue < 0){
+            residue = -residue;
         }
         if (modulus != 0){
-            value %= modulus;
+            residue %= modulus;
         }
-        this.value = value;
+        this.residue = residue;
         this.modulus = modulus;
     }
 
     @Override
     public String toString(){
-        return "(" + value + " + " + modulus + "Z)";
+        return "(" + residue + " + " + modulus + "Z)";
     }
 }
